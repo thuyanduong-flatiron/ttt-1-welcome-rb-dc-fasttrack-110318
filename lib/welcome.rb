@@ -2,7 +2,7 @@
 # You can see what this file does by running:
 # ruby lib/welcome.rb from your terminal.
 puts "Please enter your name:"
-name = gets
-if(name.strip == "Ann")
+name = gets.strip
+if(name == "Ann")
   puts "Hey! You've got a lecture soon"
 end
