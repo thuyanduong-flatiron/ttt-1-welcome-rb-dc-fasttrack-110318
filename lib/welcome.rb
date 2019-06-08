@@ -4,4 +4,4 @@
 puts "Please enter your name:"
 name = gets
 name.strip
-puts name
+puts name.strip
