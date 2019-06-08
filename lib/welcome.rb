@@ -3,6 +3,7 @@
 # ruby lib/welcome.rb from your terminal.
 puts "Please enter your name:"
 name = gets
+name.strip
 if(name == "Ann")
   put "Hey! You've got a lecture soon"
 end
