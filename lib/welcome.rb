@@ -4,5 +4,5 @@
 puts "Please enter your name:"
 name = gets
 if(name.strip == "Ann")
-  put "Hey! You've got a lecture soon"
+  puts "Hey! You've got a lecture soon"
 end
